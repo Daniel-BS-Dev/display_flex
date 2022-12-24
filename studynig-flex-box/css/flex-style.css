@@ -3,5 +3,11 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
+}
 
+.rodape__container {
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+    flex-flow: column wrap;
 }
